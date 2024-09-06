@@ -1,0 +1,15 @@
+ipeline 
+{
+agent any 
+ stages 
+  {
+   stage("This is first stage")
+   {
+    steps
+    {
+     echo "This is first stage from Feature2"
+
+    }
+   }
+}
+}
